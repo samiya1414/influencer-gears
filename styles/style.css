@@ -1,4 +1,45 @@
+
 .influence{
-    margin-left: 40px;
     display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+
+}
+.links{
+    margin: 25px;
+}
+.links a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+  /* styles articles */
+.journey{
+    display: flex;
+    border: 1px solid whitesmoke;
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.start{
+    padding-right: 40px;
+   
+}
+.product{
+    font-size: 40px;
+    color: darkred;
+    
+}
+.camera img{
+    width: 80%;
+    
+}
+.preebook{
+    border:2px solid crimson;
+    background-color: crimson;
+    width: 150px;
+    height:25px;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-top: 5px;
 }
