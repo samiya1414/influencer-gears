@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+/*-------common styles------*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 
 .influence{
     display: flex;
@@ -22,8 +28,10 @@
     margin-right: 40px;
 }
 .start{
-    padding-right: 40px;
-   
+    width: 40%;
+    padding-right: 100px;
+    text-align: justify; 
+    
 }
 .product{
     font-size: 40px;
@@ -32,6 +40,7 @@
 }
 .camera img{
     width: 80%;
+    padding-left: 130px;
     
 }
 .preebook{
@@ -42,4 +51,40 @@
     border-radius: 15px;
     padding-left: 25px;
     padding-top: 5px;
+}
+/* grid styles */
+.set-logo{
+    border-top: 3px solid lightgray;
+    border-bottom: 3px solid lightgray;
+    border-radius: 2px;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.logos{
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 30px;
+}
+.first-logo{
+    width: 100px;
+    padding-top: 15px;
+}
+.second-logo{
+    width: 100px;
+}
+.third-logo{
+    width: 80px;
+    padding-top: 30px;
+}
+.fourth-logo{
+    width: 100px;
+    padding-top: 22px;
+}
+.fifth-logo{
+    width: 100px;
+    padding-top: 5px;
+}
+.sixth-logo{
+    width: 100px;
 }
