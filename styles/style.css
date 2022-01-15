@@ -88,3 +88,49 @@ body{
 .sixth-logo{
     width: 100px;
 }
+/* -----styles third section---- */
+.popular{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+}
+.brand{
+   border: 1px solid:lightblue;
+   background-color: lightblue;
+   border-radius: 10px;
+    width: 350px;
+    height: 550px;
+    padding-left: 10px;
+}
+.branded-product img{
+    width: 90%;
+    border-radius: 10px;
+   
+    padding-top: 20px;
+}
+.product-name{
+    font-size: 20px;
+}
+ .fa-star.filled{
+    color:crimson;
+}
+ .fa-star.empty{
+    color:wheat;
+}
+.shift{
+    color: whitesmoke;
+}
+.Collection{
+    border: 1px solid lightgoldenrodyellow;
+    background-color: lightgoldenrodyellow;
+    width: 1200px;
+    padding: 0px 0px 10px 20px;
+    margin-left: 100px;
+  
+}
